@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatura BT"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/txv_temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:text="0"
+        android:gravity="center_horizontal"
+        ></TextView>
+    <Button
+        android:id="@+id/btn_dispositivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enlazar dispositivo"></Button>
+    <TextView
+        android:id="@+id/txv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
